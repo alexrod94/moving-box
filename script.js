@@ -22,10 +22,3 @@ window.addEventListener("keypress", (event) => {
     square.style.left = `${squareLeft}px`;
   }
 });
-const newSquare = `
-    <div class="newSquare"></div>
-`;
-
-setInterval(() => {
-  document.querySelector("body").innerHTML += newSquare;
-}, 2000);
